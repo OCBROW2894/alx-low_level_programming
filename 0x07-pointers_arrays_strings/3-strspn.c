@@ -14,7 +14,7 @@ unsigned int _strspn(char *s, char *accept);
  * @s: is the string to search
  * @accept:is the the prefic substring to be tested
  * Description: returns number of bytes in which s only has bytes from accept
- * 
+ *
  * Return: is the  number of bytes
  */
 

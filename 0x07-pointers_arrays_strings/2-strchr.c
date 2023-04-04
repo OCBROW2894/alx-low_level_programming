@@ -13,7 +13,7 @@ char *_strchr(char *s, char c);
  * @s: Is the string to be searched
  * @c: Is the character to find
  * Description: This program finds a character in a string
- * Return a string as it is a char data type of function
+ * Return: a string as it is a char data type of function
  */
 
 char *_strchr(char *s, char c)

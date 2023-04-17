@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	guok my_dog;
+	dog_t my_dog;
 
 	my_dog.name = "Nala";
 	my_dog.age = 11.5;
@@ -16,3 +16,4 @@ int main(void)
 	printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
 	return (0);
 }
+

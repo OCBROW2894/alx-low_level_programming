@@ -14,13 +14,13 @@ struct dog
 	char *owner;
 };
 /**
- * Nala - new name (typedef) for dog struct.
+ * guok - means dog in LUO and here it's new name (typedef) for dog struct.
  */
-typedef struct dog Nala;
+typedef struct dog guok;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
-Nala *new_dog(char *name, float age, char *owner);
-void free_dog(Nala *d);
+guok *new_dog(char *name, float age, char *owner);
+void free_dog(guok *d);
 
 #endif

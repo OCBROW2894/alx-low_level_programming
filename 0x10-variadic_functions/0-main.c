@@ -13,6 +13,6 @@ int main(void)
 	sum = sum_them_all(325, 2749, 2894);
 	printf("%d\n", sum);
 	sum = sum_them_all(325, 2894, 2012, 2749, -1024);
-	printf("%d\n", sum);    
+	printf("%d\n", sum);
 	return (0);
 }

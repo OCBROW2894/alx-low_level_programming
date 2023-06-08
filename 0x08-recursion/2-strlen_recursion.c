@@ -1,25 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - function declaration
- * Main: where the compiler start compiling
+ * _strlen_recursion - a function that returns the length of a string
  * @s: the string
- * Return: string length
- */
-
-int _strlen_recursion(char *s);
-
-int main(void)
-{
-	_strlen_recursion("Hashirama Senju");
-}
-
-/**
- * _strlen_recursion - function definition
- * @s: the string to measure
- * Description: finds the length of a string
- * using recursion
- * Return: the string length
+ *
+ * Return: string length as an integer
  */
 
 int _strlen_recursion(char *s)

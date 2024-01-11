@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- * I got this from the Julien example
+ * 
  * Return: Always 0 when correct.
  */
 int main(void)
